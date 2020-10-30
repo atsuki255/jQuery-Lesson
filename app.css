@@ -1,0 +1,6 @@
+.box1 {
+  display: none; /*最初は非表示になるように*/
+  background-color: #FF0000;
+  height: 200px;
+  width: 200px;
+}
