@@ -20,3 +20,23 @@
 .bg4 {
   background-color: #FFDDDD;
 }
+
+.box{
+  width:50%;
+  margin:30% 5% 5% 5%;
+  text-align:center;
+  background-color:#ffff00;
+  padding:5%;
+  border:1px solid #333;
+  transform:translateX(-50px);
+  opacity:0;
+  transition:opacity 1s,transform 0.5s;
+}
+
+.box:first-of-type{
+  margin:80% 5% 5% 5%;
+}
+.fadein{
+  opacity:1;
+  transform:translateX(0);
+}
