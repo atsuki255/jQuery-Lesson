@@ -48,9 +48,3 @@ window.onscroll = function(){
       }
     });
   }
-  //ページトップ以外の時は関数を呼び出す（ページトップ時以外の時はボタンは表示される）
-  var scrollTop = window.pageYOffset ;
-    if(scrollTop > 0) {
-    fadeIn('js-button', 100);
-  }
-}
